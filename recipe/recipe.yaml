@@ -1,7 +1,6 @@
 context:
   version: "1.5.2"
-  # experimental branch: main's build number + 100
-  build_number: 104
+  build_number: 4
 
   # ocaml_win-64 ships gcc_* and vs2022_* at the same version/build; name the track.
   c_toolchain: ${{ "" if unix else c_compiler ~ "_*" }}
